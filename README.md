@@ -2,11 +2,11 @@
 This repository contains the instructions for setting up a virtualized environment using Docker to host a web application on a Google Cloud VM. Nginx is used as the web server for serving the application.
 
 # Table of Contents
-- Overview
-- Prerequisites
-- Installation
-- Creation of Virtual Machine
-- Accessing the Application
+- [Overview]
+- [Prerequisites]
+- [Installation]
+- [Creation of Virtual Machine]
+- [Accessing the Application]
 
 # Overview 
 The goal of this project is to deploy a web application within a Docker container, served by Nginx, and hosted on a Google Cloud VM instance with port mapping to allow external access.
@@ -111,7 +111,7 @@ docker ps
 
 # Result 
 After following all steps,I successfully built the web application that is  now be accessible through the specified IP and port, serving the application content via the Nginx server within a Docker container hosted on the Google Cloud VM instance.
-- To access the application:[Click Here](34.172.35.91)
+- To access the application: [Click Here](34.172.35.91)
   
 
   

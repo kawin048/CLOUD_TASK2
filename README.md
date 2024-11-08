@@ -119,7 +119,7 @@ docker ps
 
 # Result 
 After following all steps,I successfully built the web application that is  now be accessible through the specified IP and port, serving the application content via the Nginx server within a Docker container hosted on the Google Cloud VM instance.
-- To access the application: [Click Here](34.172.35.91:8000)
+- To access the application: [Click Here](34.172.35.91)
   
 
   

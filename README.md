@@ -109,7 +109,11 @@ gcloud compute ssh YOUR_VM_NAME
 docker pull gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
 docker run -d -p 8000:80 gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
 ```
-6. Verify Deployment
+6. To keep the docker ruuning in the background
+```bash
+   docker run -d -p 8080:80 --restart unless-stopped gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
+```
+7. Verify Deployment
 ```bash
 docker ps
 ```

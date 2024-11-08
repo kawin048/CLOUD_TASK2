@@ -1,4 +1,4 @@
-# Virtualized Environment Using Docker - TASK3
+# Virtualized Environment Using Docker - TASK2
 This repository contains the instructions for setting up a virtualized environment using Docker to host a web application on a Google Cloud VM. Nginx is used as the web server for serving the application.
 
 # Table of Contents

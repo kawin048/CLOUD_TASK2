@@ -55,7 +55,7 @@ CMD ["nginx", "-g", "daemon off;"]
 3. Configure Docker
    
 ```bash
-   gcloud auth configure-docker
+gcloud auth configure-docker
 ```
  
 4. Build and Push Docker Image
@@ -68,14 +68,14 @@ docker tag YOUR_WEB_APP gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
 ```
 5. Push Docker Image to Google Container Registry
 ```bash
-   docker push gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
+docker push gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
 ```
 # Creation of Virtual Machine
 
 1. Enable Compute Engine Api
 
 ```bash
-   gcloud services enable compute.googleapis.com
+gcloud services enable compute.googleapis.com
 ```
  
 2. VM Setup and Installing Docker
@@ -111,7 +111,7 @@ docker run -d -p 8000:80 gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
 ```
 6. To keep the docker ruuning in the background
 ```bash
-   docker run -d -p 8080:80 --restart unless-stopped gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
+docker run -d -p 8080:80 --restart unless-stopped gcr.io/YOUR_PROJECT_ID/YOUR_WEB_APP
 ```
 7. Verify Deployment
 ```bash
